@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Language" content="es" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="bigc/css/theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>Inicia sesión </title>
+</head>
+
+<body class="fondo">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-4 pdgl-0 text-left hidden-xs">
+                <div class="banner-desktop">
+                    <img class="object-cover" src="img/banner-login2.png" alt="" style="height: 100vh" />
+                    <img class="banner-desktop--logo" src="./img/logo-prima.svg" alt="">
+                    <div class="swiper-banner">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="swiper-banner--icon" src="./img/icons/goal.svg" alt="">
+                                    <p class="roza swiper-banner--text"> 
+                                        La cuenta de aportes voluntarios de libre disponibilidad es
+                                        distinta a la de tu fondo obligatorio de pensión.
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-banner--icon" src="./img/icons/wallet.svg" alt="">
+                                    <p class="roza swiper-banner--text">
+                                        Con tu cuenta, tienes la libertad de realizar retiros ilimitados
+                                        sin costo ni penalidades.
+                                    </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="swiper-banner--icon" src="./img/icons/goal.svg" alt="">
+                                    <p class="roza swiper-banner--text">
+                                        La cuenta de aportes voluntarios de libre disponibilidad es
+                                        distinta a la de tu fondo obligatorio de pensión.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-6 col-md-offset-1">
+                <div class="row visible-xs " style="box-shadow: 2px 2px 10px 2px #EBEBEB;">
+                    <div class="col-xs-6 mrg-top20">
+                        <img src="img/logo-prima.png" height="18" alt="">
+                    </div>
+                    <div class="col-xs-6 text-right mrg-top10 mrg-bot10">
+                        <img src="img/logo-metas.png" height="35" alt="">
+                    </div>
+                </div>
+                <div class="row visible-xs">
+                    <div class="center-mobile">
+                        <div class="col-xs-6 pdg-top20">
+                            <a href="login.html" class="color-org calibri  fnt-16">
+                            <img class="atras" src="img/icons/atras.png" width="20" alt=""> Atrás</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mrg-top40 hidden-xs">
+                    <div class="col-md-6 pdg-top20">
+                        <a href="crear-cuenta.html" class="color-org calibri fnt-16">
+                        <img class="atras" src="img/icons/atras.png" width="20" alt=""> Atrás</a>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <img src="img/logo-metas.png" height="48" alt="">
+                    </div>
+                </div>
+                <div class="row mrg-top40">
+                    <div class="center-mobile">
+                        <div class="col-sm-12 ">
+                            <h4 class="roza fnt-32 color-verde">Bienvenida Mayra</h4>
+                            <p class="mrg-top20 gris2">Ingresa a tu cuenta y disfruta de todos los beneficios que tenemos para ti.</p>
+
+                        </div>
+                        <div class="col-sm-12 mrg-top20">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 ">
+                                    <form onsubmit="enviarTramite(event);" action="consultaServlet" method="POST">
+                                        <div class="dis-flecent mrg-bot16">
+                                            <select class="inpt-login">
+                                
+                                <option value="">DNI</option>
+                                <option value="">C. de extranjeria</option>
+                                <option value="">Pasaporte</option>
+                            </select>
+                                            <input type="text" id="btnRedc" required placeholder="N° de documento" class="mrg-bot0 inpt-login2">
+                                        </div>
+                                        <div class="mrg-bot16 group">
+                                            <p class="tittle-datos">Contraseña</p>
+                                            <div class="password-secondary">
+                                                <input type="password" class="mrg-bot0 password">
+                                                <div class="password-icons">
+                                                    <img class="icon-eye hiden" src="img/icons/eye.png" alt="">
+                                                    <img class="icon-eye show" src="img/icons/eye-off.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <p class="text-center mrg-top20"><a href="restablecer_pass.html" class="calibri color-org " style="text-decoration: underline;">¿No recuerdas tu contraseña?</a></p>
+                                    <a href="actualizacion.html" class="button style-10 mrg-top20" style="width: 100%">Ingresar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12 pdg-0 mrg-top20 visible-xs banner-mobile">
+                <img src="img/banner-login2-res.png" alt="" />
+                <div class="swiper-banner">
+                  <div class="swiper mySwiper">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <img class="swiper-banner--icon" src="./img/icons/goal.svg" alt="">
+                              <p class="roza swiper-banner--text"> 
+                                  La cuenta de aportes voluntarios de libre disponibilidad es
+                                  distinta a la de tu fondo obligatorio de pensión.
+                              </p>
+                          </div>
+                          <div class="swiper-slide">
+                              <img class="swiper-banner--icon" src="./img/icons/wallet.svg" alt="">
+                              <p class="roza swiper-banner--text">
+                                  Con tu cuenta, tienes la libertad de realizar retiros ilimitados
+                                  sin costo ni penalidades.
+                              </p>
+                          </div>
+                          <div class="swiper-slide">
+                              <img class="swiper-banner--icon" src="./img/icons/goal.svg" alt="">
+                              <p class="roza swiper-banner--text">
+                                  La cuenta de aportes voluntarios de libre disponibilidad es
+                                  distinta a la de tu fondo obligatorio de pensión.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+
+<!-- <div id="dialog" class="overlay-popup">
+	<div class="overflow">
+		<p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+	</div>
+</div> -->
+
+</html>
+<script src="https://code.jquery.com/git/jquery-3.x-git.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script src="js/global.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script>
+    $(function() {
+        login.init();
+    });
+
+</script>

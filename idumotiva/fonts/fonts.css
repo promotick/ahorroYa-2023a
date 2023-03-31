@@ -1,0 +1,56 @@
+/** Helvetica Regular**/
+@font-face {
+	font-family:'HelveticaNeueLTR';
+	src: url('Helvetica Neue LT Regular/HelveticaNeueLTR.eot');
+	src: url('Helvetica Neue LT Regular/HelveticaNeueLTR.eot?#iefix') format('embedded-opentype'),
+		url('Helvetica Neue LT Regular/HelveticaNeueLTR.woff') format('woff'),
+		url('Helvetica Neue LT Regular/HelveticaNeueLTR.ttf') format('truetype'),
+		url('Helvetica Neue LT Regular/HelveticaNeueLTR.svg#HelveticaNeueLTCom-Bd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0-10FFFF;
+}
+
+/** Helvetica Bold Italic**/
+@font-face {
+	font-family:'HelveticaNeueLTBI';
+	src: url('Helvetica Neue LT Bold Italic/HelveticaNeueLTBI.eot');
+	src: url('Helvetica Neue LT Bold Italic/HelveticaNeueLTBI.eot?#iefix') format('embedded-opentype'),
+		url('Helvetica Neue LT Bold Italic/HelveticaNeueLTBI.woff') format('woff'),
+		url('Helvetica Neue LT Bold Italic/HelveticaNeueLTBI.ttf') format('truetype'),
+		url('Helvetica Neue LT Bold Italic/HelveticaNeueLTBI.svg#HelveticaNeueLTCom-Bd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0-10FFFF;
+}
+
+/** Helvetica Bold**/
+@font-face {
+	font-family:'HelveticaNeueLTB';
+	src: url('Helvetica Neue LT Bold/HelveticaNeueLTB.eot');
+	src: url('Helvetica Neue LT Bold/HelveticaNeueLTB.eot?#iefix') format('embedded-opentype'),
+		url('Helvetica Neue LT Bold/HelveticaNeueLTB.woff') format('woff'),
+		url('Helvetica Neue LT Bold/HelveticaNeueLTB.ttf') format('truetype'),
+		url('Helvetica Neue LT Bold/HelveticaNeueLTB.svg#HelveticaNeueLTCom-Bd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0-10FFFF;
+}
+
+/** Helvetica Thin**/
+@font-face {
+	font-family:'HelveticaNeueLT';
+	src: url('Helvetica Neue LT/HelveticaNeueLT.eot');
+	src: url('Helvetica Neue LT/HelveticaNeueLT.eot?#iefix') format('embedded-opentype'),
+		url('Helvetica Neue LT/HelveticaNeueLT.woff') format('woff'),
+		url('Helvetica Neue LT/HelveticaNeueLT.ttf') format('truetype'),
+		url('Helvetica Neue LT/HelveticaNeueLT.svg#HelveticaNeueLTCom-Bd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0-10FFFF;
+}
+

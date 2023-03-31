@@ -1,0 +1,78 @@
+<html>
+
+    <head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css">
+	
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="fonts/fonts.css" rel="stylesheet" type="text/css" charset="utf-8">
+	
+		<link rel="shortcut icon" href="http://pichincha.motivasoluciones.pe/Resources/public/web/imagenes/favicon.ico">
+		<title>idumotiva</title>
+	
+	</head>
+
+<body class="fondo login">
+    <div class="login-box" align="center">
+        <form id="form-login" action="j_spring_security_check" method="POST" novalidate="novalidate">
+            <img src="imagenes/logo-15.PNG" width="210"
+                height="auto" style="text-align:center; display: block;margin:0 auto;">
+            <input name="password" type="hidden" value="123456">
+            <select id="slct-tipodoc" name="tipoDocumento" data-live-search="true" placeholder="TIPO DE DOCUMENTO">
+
+                <option value="0" data-min="10" data-max="10" data-alfan="1">
+                    TIPO DE DOCUMENTO
+                </option>
+
+                <option value="1" data-min="8" data-max="8" data-alfan="1">
+                    DNI
+                </option>
+
+                <option value="2" data-min="8" data-max="12" data-alfan="2">
+                    CARNET DE EXTRANJERIA
+                </option>
+
+                <option value="5" data-min="8" data-max="12" data-alfan="2">
+                    PASAPORTE
+                </option>
+
+            </select>
+            <input id="inpt-nrodocumento" name="nrodocumento" type="text" placeholder="Nº DE DOCUMENTO" value="">
+            <input type="hidden" id="inpt-username" name="username">
+            <a class="button btn-1" id="btn-login" href="index.html">Aceptar</a>
+            <div class="button-box">
+
+                <p class="error-pass"></p>
+            </div>
+        </form>
+        <div align="right" style="display:none">
+            <a href="#" class="a_link"><u>Olvidé mi contraseña</u></a>
+        </div>
+    </div>
+
+
+
+
+    <script src="http://pichincha.motivasoluciones.pe/Resources/public/web/js/jsp/login.js"></script>
+
+    <script>
+        Login.init("/PichinchaPeWeb/");
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
